@@ -10,7 +10,7 @@ end
 
 def print_first_directors_movie_titles
   row_index = 0
-  title_list
+  title_list = ""
   while row_index < directors_database[0][:movies].length do 
     title_list += directors_database[0][:movies][row_index][:title] + "/n"
     row_index += 1
